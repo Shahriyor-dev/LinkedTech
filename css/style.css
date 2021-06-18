@@ -410,6 +410,7 @@ a {
 .active {
   color: #c72535;
   opacity: 1;
+  display: flex;
 }
 .tabs-block {
   display: none;
