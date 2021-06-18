@@ -241,7 +241,7 @@ a {
   align-items: center;
 }
 .sale {
-  padding-bottom: 35px;
+  padding-bottom: 75px;
 }
 .sale-container {
   max-width: 1140px;
@@ -298,4 +298,241 @@ a {
 }
 .dron {
   transform: rotate(28.01deg);
+}
+.about {
+  padding-bottom: 125px;
+}
+.about-container {
+  max-width: 1153px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.about-img {
+  width: 464px;
+  height: 650px;
+  background-color: #008bf0;
+  border-radius: 50%;
+}
+.about-text {
+  padding-bottom: 0;
+  min-width: 457px;
+}
+.about-subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  color: #c72535;
+  opacity: 0.6;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.about-title {
+  margin-top: 0;
+  margin-bottom: 115px;
+}
+.about-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #030d15;
+  opacity: 0.6;
+  max-width: 457px;
+  margin-bottom: 40px;
+}
+.about-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.about-list-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  color: #030d15;
+  max-width: 404px;
+  margin-bottom: 20px;
+}
+.about-list-img {
+  margin-right: 13px;
+}
+.tabs {
+  padding-bottom: 130px;
+}
+.tabs-container {
+  max-width: 1140px;
+  margin: auto;
+  width: 90%;
+}
+.tabs-subtitle {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  color: #c72535;
+  opacity: 0.6;
+}
+.tabs-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 71px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 22px;
+  color: #030d15;
+}
+.tabs-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 85px;
+}
+.tabs-nav-item {
+  margin-right: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #030d15;
+  opacity: 0.6;
+}
+.active {
+  color: #c72535;
+  opacity: 1;
+}
+.tabs-block {
+  display: none;
+}
+.tabs-block:target {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tabs-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  min-width: 360px;
+  min-height: 503px;
+  margin-bottom: 45px;
+}
+.card-wrapper {
+  padding: 35px 59px 35px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #030d15;
+  margin-bottom: 12px;
+}
+.card-img {
+  width: 243px;
+  height: 232px;
+}
+.card-title {
+  margin-top: 72px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  color: #030d15;
+}
+.card-cost {
+  display: flex;
+  margin-bottom: 7px;
+}
+.card-cost--new {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #030d15;
+}
+.card-cost--new:after {
+  content: "/";
+  margin: 0 2px;
+  color: #030d15;
+  opacity: 0.5;
+}
+.card-cost--old {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  text-decoration-line: line-through;
+  color: #030d15;
+  opacity: 0.5;
+}
+.tabs-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs-view span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #030d15;
+  margin-right: 10px;
+}
+.shop {
+  padding-bottom: 130px;
+}
+.shop-container {
+  max-width: 1140px;
+  margin: auto;
+  width: 90%;
+}
+.shop-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shop-subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  color: #c72535;
+  opacity: 0.6;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.shop-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 71px;
+  color: #030d15;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+.shop-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #030d15;
+  opacity: 0.6;
+  max-width: 457px;
 }
