@@ -413,13 +413,11 @@ a {
   display: flex;
 }
 .tabs-block {
-  display: none;
-}
-.tabs-block:target {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .tabs-card {
   border: 1px solid rgba(0, 0, 0, 0.1);
   min-width: 360px;
